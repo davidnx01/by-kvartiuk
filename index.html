@@ -1,0 +1,298 @@
+<!doctype html><html lang="sk"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>By.kvartiuk · salón krásy a laserová epilácia v Žiline — neoficiálny návrh</title>
+<meta name="description" content="Neoficiálny návrh homepage pre By.kvartiuk — laserová epilácia, riasy a obočie, líčenie a ošetrenia pleti, J. M. Geromettu 146, Žilina.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f5f3f8; --paper-2:#ebe7f1; --ink:#1d1428; --ink-2:#5a5068;
+  --violet:#41206d; --violet-2:#2f1652; --on-violet:#f3eefa; --on-violet-2:#c9bddb;
+  --beam:#d9ab3f; --beam-soft:rgba(217,171,63,.35);
+  --hair:rgba(29,20,40,.14); --hair-v:rgba(243,238,250,.18);
+  --sans:"Sora",system-ui,sans-serif; --mono:"Space Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font:400 16.5px/1.6 var(--sans)}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--beam);outline-offset:3px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 32px}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.lab{font:700 11.5px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+
+.notice{background:var(--ink);color:var(--paper);font:400 13px/1.5 var(--sans);text-align:center;padding:8px 16px}
+
+header{border-bottom:1px solid var(--hair)}
+.hd{display:flex;align-items:center;gap:24px;min-height:74px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{width:44px;height:44px}
+.brand b{font:600 19px/1 var(--sans);letter-spacing:-.01em}
+header nav{margin-left:auto;display:flex;gap:28px}
+header nav a{text-decoration:none;font:400 14.5px/1 var(--sans);padding:14px 0;background:linear-gradient(var(--beam),var(--beam)) 0 100%/0 2px no-repeat;transition:background-size .2s}
+header nav a:hover{background-size:100% 2px}
+.hd-tel{font:700 15px/1 var(--mono);text-decoration:none;padding:14px 18px;background:var(--violet);color:var(--on-violet);white-space:nowrap}
+.hd-tel:hover{background:var(--violet-2)}
+
+/* hero */
+.hero{padding:64px 0 40px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1fr 420px;gap:72px;align-items:center}
+h1{font:700 clamp(48px,6.6vw,92px)/.95 var(--sans);letter-spacing:-.035em;margin:18px 0 26px}
+h1 .dot{color:var(--beam)}
+.lede{font-size:20px;line-height:1.5;max-width:30ch}
+.quote{margin-top:22px;padding-left:18px;border-left:2px solid var(--beam);color:var(--ink-2);max-width:46ch;font-size:15.5px}
+.quote small{display:block;font:400 12px/1.4 var(--mono);margin-top:6px;letter-spacing:.04em}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 26px;font:600 15px/1 var(--sans);text-decoration:none}
+.btn-v{background:var(--violet);color:var(--on-violet)}
+.btn-v:hover{background:var(--violet-2)}
+.btn-o{border:1.5px solid var(--ink)}
+.btn-o:hover{background:var(--ink);color:var(--paper)}
+.shot{position:relative}
+.shot img{width:100%;aspect-ratio:720/1050;object-fit:cover;position:relative;z-index:1}
+.shot::before{content:"";position:absolute;inset:-14px -14px 14px 14px;border:1px solid var(--hair)}
+.beam{position:absolute;z-index:2;top:31.2%;right:69.6%;width:calc(30.4% + 150px);height:2px;background:linear-gradient(90deg,transparent,var(--beam) 55%,#f6d98c);box-shadow:0 0 12px 2px var(--beam-soft);pointer-events:none}
+.shot figcaption{position:absolute;z-index:2;right:0;bottom:0;background:var(--paper);padding:8px 0 0 12px;font:400 11.5px/1.3 var(--mono);color:var(--ink-2)}
+
+/* ruler */
+.ruler{padding:34px 0 50px}
+.scale{position:relative;height:44px}
+.scale svg{position:absolute;left:0;right:0;bottom:0;width:100%;height:22px}
+.scale span{position:absolute;top:0;transform:translateX(-50%);font:400 11px/1 var(--mono);color:var(--ink-2)}
+.scale span:first-child{transform:none}
+.scale span:last-child{transform:translateX(-100%)}
+.idx{display:flex;justify-content:space-between;gap:12px;list-style:none;margin-top:0}
+.idx a{display:block;position:relative;padding:20px 0 8px;text-decoration:none;font:600 15px/1.25 var(--sans);min-height:44px}
+.idx a::before{content:"";position:absolute;left:0;top:0;width:2px;height:16px;background:var(--beam);box-shadow:0 0 8px var(--beam-soft)}
+.idx a small{display:block;font:400 11.5px/1.4 var(--mono);color:var(--ink-2);margin-top:4px}
+.idx a:hover{color:var(--violet)}
+
+/* laser block */
+.laser{background:var(--violet);color:var(--on-violet);padding:72px 0 76px;position:relative;overflow:hidden;
+  background-image:linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:calc((100% - 0px)/14) 100%}
+.laser .beamline{position:absolute;left:0;top:118px;width:calc(50% - 600px + 32px + 40px);min-width:64px;height:2px;background:linear-gradient(90deg,transparent,var(--beam));box-shadow:0 0 12px 2px var(--beam-soft)}
+.laser-h{display:grid;grid-template-columns:1fr auto;gap:32px;align-items:end;border-bottom:1px solid var(--hair-v);padding-bottom:28px}
+.laser .lab{color:var(--on-violet-2)}
+.laser h2{font:700 clamp(36px,4.4vw,58px)/1 var(--sans);letter-spacing:-.03em;margin-top:14px}
+.laser-meta{text-align:right;font:400 13px/1.6 var(--mono);color:var(--on-violet-2)}
+.laser-meta b{display:block;font:700 30px/1.1 var(--mono);color:var(--beam)}
+.zones{list-style:none;columns:3;column-gap:48px;margin-top:30px}
+.zones li{break-inside:avoid;display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:10px 0;border-bottom:1px solid var(--hair-v);font-size:16px}
+.zones li .mono{font-size:15px;white-space:nowrap}
+.zones .pre{color:var(--on-violet-2);font-size:13px}
+.laser .src{margin-top:24px;font:400 12.5px/1.6 var(--mono);color:var(--on-violet-2)}
+
+/* services */
+.svc{padding:84px 0 60px}
+.svc-grid{display:grid;grid-template-columns:300px 1fr;gap:64px;align-items:start}
+.svc-side{position:sticky;top:24px}
+.svc h2{font:700 clamp(30px,3.4vw,42px)/1.05 var(--sans);letter-spacing:-.025em;margin:12px 0 16px}
+.svc-side p{color:var(--ink-2);font-size:15px}
+.pics{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:26px}
+.pics figure{margin:0}
+.pics img{width:100%;aspect-ratio:1;object-fit:cover;filter:saturate(.92)}
+.pics figcaption{font:400 11px/1.4 var(--mono);color:var(--ink-2);margin-top:6px}
+details{border-top:1px solid var(--hair)}
+details:last-of-type{border-bottom:1px solid var(--hair)}
+summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:1fr auto 28px;gap:18px;align-items:center;padding:20px 0;min-height:44px}
+summary::-webkit-details-marker{display:none}
+summary h3{font:600 21px/1.2 var(--sans);letter-spacing:-.01em}
+summary .mono{font-size:13px;color:var(--ink-2);white-space:nowrap}
+summary i{width:28px;height:28px;position:relative}
+summary i::before,summary i::after{content:"";position:absolute;left:6px;right:6px;top:13px;height:2px;background:var(--ink);transition:transform .2s}
+summary i::after{transform:rotate(90deg)}
+details[open] summary i::after{transform:rotate(0)}
+details[open] summary i::before{background:var(--beam)}
+summary:hover h3{color:var(--violet)}
+.list{list-style:none;padding:0 0 22px}
+.list li{display:grid;grid-template-columns:1fr 104px 72px;gap:16px;padding:9px 0;border-top:1px dashed var(--hair);font-size:15.5px;align-items:baseline}
+.list .t{font:400 13px/1.3 var(--mono);color:var(--ink-2)}
+.list .p{font:700 15px/1.3 var(--mono);text-align:right;white-space:nowrap}
+.list .tel{font:400 12px/1.3 var(--mono);color:var(--ink-2);text-align:right}
+.phone-only{margin-top:34px;padding:26px 28px;background:var(--paper-2)}
+.phone-only h3{font:600 18px/1.3 var(--sans);margin-bottom:10px}
+.phone-only ul{list-style:none}
+.phone-only li{padding:6px 0;border-top:1px dashed var(--hair);font-size:15px}
+.phone-only li:first-child{border-top:0}
+.svc .src{margin-top:18px;font:400 12.5px/1.6 var(--mono);color:var(--ink-2)}
+
+/* contact */
+.contact{padding:40px 0 90px}
+.c-head{display:flex;align-items:baseline;justify-content:space-between;gap:24px;border-bottom:2px solid var(--ink);padding-bottom:16px}
+.c-head h2{font:700 clamp(30px,3.4vw,42px)/1 var(--sans);letter-spacing:-.025em}
+.c-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.c-grid > div{padding:28px 28px 8px 0}
+.c-grid > div + div{padding-left:28px;border-left:1px solid var(--hair)}
+.c-grid p{margin-top:10px}
+.c-grid a{text-decoration:none;background:linear-gradient(var(--beam),var(--beam)) 0 100%/100% 2px no-repeat;transition:background-size .2s}
+.c-grid a:hover{background-size:0 2px}
+.c-grid .muted{color:var(--ink-2);font-size:14.5px}
+.links{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:14px}
+
+footer{background:var(--ink);color:var(--on-violet-2);padding:24px 0 28px;font-size:13.5px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+.mbar{display:none}
+@media (max-width:980px){
+  .hero-grid{grid-template-columns:1fr 340px;gap:44px}
+  .zones{columns:2}
+  .svc-grid{grid-template-columns:1fr;gap:28px}
+  .svc-side{position:static}
+  .pics{max-width:420px}
+}
+@media (max-width:760px){
+  .wrap{padding:0 16px}
+  header nav{display:none}
+  .hd-tel{margin-left:auto;padding:13px 12px;font-size:14px}
+  .brand b{font-size:17px}
+  .brand img{width:40px;height:40px}
+  .hero{padding:32px 0 24px}
+  .hero-grid{grid-template-columns:1fr;gap:34px}
+  .shot{margin-right:14px;max-width:420px}
+  .beam{display:none}
+  .shot img{aspect-ratio:1/1;object-position:50% 34%}
+  .zones li{padding:8px 0}
+
+  h1{font-size:clamp(44px,13.5vw,60px)}
+  .lede{font-size:18px}
+  .scale span:nth-child(even){display:none}
+  .idx{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+  .laser{padding:56px 0}
+  .laser .beamline{top:92px;width:16px;min-width:0}
+  .laser-h{grid-template-columns:1fr}
+  .laser-meta{text-align:left}
+  .zones{columns:1}
+  .list li{grid-template-columns:1fr auto;gap:2px 12px}
+  .list .t{grid-column:1;grid-row:2}
+  .list .p,.list .tel{grid-row:1/3;grid-column:2;align-self:center}
+  summary{grid-template-columns:1fr 28px;gap:4px 12px}
+  summary .mono{grid-column:1;grid-row:2}
+  summary i{grid-column:2;grid-row:1/3}
+  .phone-only{padding:22px 18px}
+  .c-grid{grid-template-columns:1fr}
+  .c-grid > div,.c-grid > div + div{padding:22px 0 6px;border-left:0}
+  .c-grid > div + div{border-top:1px solid var(--hair)}
+  body{padding-bottom:calc(70px + env(safe-area-inset-bottom))}
+  .mbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:20;padding:0 0 env(safe-area-inset-bottom);background:var(--ink)}
+  .mbar a{min-height:58px;display:flex;align-items:center;justify-content:center;font:600 15px/1 var(--sans);text-decoration:none;color:var(--paper)}
+  .mbar a:first-child{background:var(--violet)}
+  .mbar a:last-child{box-shadow:inset 0 2px 0 var(--beam)}
+}
+@media (hover:hover){.pics img{transition:transform .5s}.pics figure{overflow:hidden}.pics figure:hover img{transform:scale(1.045)}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<div class="notice" role="note">Neoficiálny návrh — nie je to oficiálny web podniku · ukážka od webdavid.sk, objednávky ani rezervácie tu nefungujú</div>
+
+<header>
+  <div class="wrap hd">
+    <a class="brand" href="#top" aria-label="By.kvartiuk — na začiatok"><img src="assets/kvartiuk-znak.webp" width="44" height="44" alt="Znak By.kvartiuk — písmeno K v šesťuholníku"><b>By.kvartiuk</b></a>
+    <nav aria-label="Hlavná navigácia"><a href="#laser">Laserová epilácia</a><a href="#sluzby">Cenník služieb</a><a href="#kontakt">Kontakt</a></nav>
+    <a class="hd-tel" href="tel:+421944360505">0944 360 505</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="lab">Salón krásy · Žilina · J. M. Geromettu 146</p>
+        <h1>By<span class="dot">.</span>kvartiuk</h1>
+        <p class="lede">Laserová epilácia, lash lifting, líčenie a ošetrenia pleti — na objednanie.</p>
+        <p class="quote">„By.kvartiuk je novootvorený salón krásy v Žiline, len na skok od Auparku a tržnice.“<small>— popis salónu na Notino</small></p>
+        <div class="cta">
+          <a class="btn btn-v" href="tel:+421944360505">Zavolať 0944 360 505</a>
+          <a class="btn btn-o" href="https://www.notino.sk/salony/by-kvartiuk/" rel="noopener" target="_blank">Termín cez Notino</a>
+        </div>
+      </div>
+      <figure class="shot">
+        <span class="beam" aria-hidden="true"></span>
+        <img src="assets/kvartiuk-laser-hlavica.webp" width="720" height="1050" fetchpriority="high" alt="Hlavica prístroja na laserovú epiláciu v ruke v modrej rukavici, v pozadí svetlé ošetrovacie lôžko">
+        <figcaption>foto z ich Facebooku</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <nav class="ruler" aria-label="Obsah stránky">
+    <div class="wrap">
+      <div class="scale" aria-hidden="true"><span style="left:0.000%">400</span><span style="left:14.286%">500</span><span style="left:28.571%">600</span><span style="left:42.857%">700</span><span style="left:57.143%">800</span><span style="left:71.429%">900</span><span style="left:85.714%">1000</span><span style="left:100.000%">1100 nm</span><svg viewBox="0 0 700 22" preserveAspectRatio="none" stroke="#1d1428" stroke-width="1" vector-effect="non-scaling-stroke"><line x1="0" y1="0" x2="0" y2="22" vector-effect="non-scaling-stroke"/><line x1="10" y1="15" x2="10" y2="22" vector-effect="non-scaling-stroke"/><line x1="20" y1="15" x2="20" y2="22" vector-effect="non-scaling-stroke"/><line x1="30" y1="15" x2="30" y2="22" vector-effect="non-scaling-stroke"/><line x1="40" y1="15" x2="40" y2="22" vector-effect="non-scaling-stroke"/><line x1="50" y1="8" x2="50" y2="22" vector-effect="non-scaling-stroke"/><line x1="60" y1="15" x2="60" y2="22" vector-effect="non-scaling-stroke"/><line x1="70" y1="15" x2="70" y2="22" vector-effect="non-scaling-stroke"/><line x1="80" y1="15" x2="80" y2="22" vector-effect="non-scaling-stroke"/><line x1="90" y1="15" x2="90" y2="22" vector-effect="non-scaling-stroke"/><line x1="100" y1="0" x2="100" y2="22" vector-effect="non-scaling-stroke"/><line x1="110" y1="15" x2="110" y2="22" vector-effect="non-scaling-stroke"/><line x1="120" y1="15" x2="120" y2="22" vector-effect="non-scaling-stroke"/><line x1="130" y1="15" x2="130" y2="22" vector-effect="non-scaling-stroke"/><line x1="140" y1="15" x2="140" y2="22" vector-effect="non-scaling-stroke"/><line x1="150" y1="8" x2="150" y2="22" vector-effect="non-scaling-stroke"/><line x1="160" y1="15" x2="160" y2="22" vector-effect="non-scaling-stroke"/><line x1="170" y1="15" x2="170" y2="22" vector-effect="non-scaling-stroke"/><line x1="180" y1="15" x2="180" y2="22" vector-effect="non-scaling-stroke"/><line x1="190" y1="15" x2="190" y2="22" vector-effect="non-scaling-stroke"/><line x1="200" y1="0" x2="200" y2="22" vector-effect="non-scaling-stroke"/><line x1="210" y1="15" x2="210" y2="22" vector-effect="non-scaling-stroke"/><line x1="220" y1="15" x2="220" y2="22" vector-effect="non-scaling-stroke"/><line x1="230" y1="15" x2="230" y2="22" vector-effect="non-scaling-stroke"/><line x1="240" y1="15" x2="240" y2="22" vector-effect="non-scaling-stroke"/><line x1="250" y1="8" x2="250" y2="22" vector-effect="non-scaling-stroke"/><line x1="260" y1="15" x2="260" y2="22" vector-effect="non-scaling-stroke"/><line x1="270" y1="15" x2="270" y2="22" vector-effect="non-scaling-stroke"/><line x1="280" y1="15" x2="280" y2="22" vector-effect="non-scaling-stroke"/><line x1="290" y1="15" x2="290" y2="22" vector-effect="non-scaling-stroke"/><line x1="300" y1="0" x2="300" y2="22" vector-effect="non-scaling-stroke"/><line x1="310" y1="15" x2="310" y2="22" vector-effect="non-scaling-stroke"/><line x1="320" y1="15" x2="320" y2="22" vector-effect="non-scaling-stroke"/><line x1="330" y1="15" x2="330" y2="22" vector-effect="non-scaling-stroke"/><line x1="340" y1="15" x2="340" y2="22" vector-effect="non-scaling-stroke"/><line x1="350" y1="8" x2="350" y2="22" vector-effect="non-scaling-stroke"/><line x1="360" y1="15" x2="360" y2="22" vector-effect="non-scaling-stroke"/><line x1="370" y1="15" x2="370" y2="22" vector-effect="non-scaling-stroke"/><line x1="380" y1="15" x2="380" y2="22" vector-effect="non-scaling-stroke"/><line x1="390" y1="15" x2="390" y2="22" vector-effect="non-scaling-stroke"/><line x1="400" y1="0" x2="400" y2="22" vector-effect="non-scaling-stroke"/><line x1="410" y1="15" x2="410" y2="22" vector-effect="non-scaling-stroke"/><line x1="420" y1="15" x2="420" y2="22" vector-effect="non-scaling-stroke"/><line x1="430" y1="15" x2="430" y2="22" vector-effect="non-scaling-stroke"/><line x1="440" y1="15" x2="440" y2="22" vector-effect="non-scaling-stroke"/><line x1="450" y1="8" x2="450" y2="22" vector-effect="non-scaling-stroke"/><line x1="460" y1="15" x2="460" y2="22" vector-effect="non-scaling-stroke"/><line x1="470" y1="15" x2="470" y2="22" vector-effect="non-scaling-stroke"/><line x1="480" y1="15" x2="480" y2="22" vector-effect="non-scaling-stroke"/><line x1="490" y1="15" x2="490" y2="22" vector-effect="non-scaling-stroke"/><line x1="500" y1="0" x2="500" y2="22" vector-effect="non-scaling-stroke"/><line x1="510" y1="15" x2="510" y2="22" vector-effect="non-scaling-stroke"/><line x1="520" y1="15" x2="520" y2="22" vector-effect="non-scaling-stroke"/><line x1="530" y1="15" x2="530" y2="22" vector-effect="non-scaling-stroke"/><line x1="540" y1="15" x2="540" y2="22" vector-effect="non-scaling-stroke"/><line x1="550" y1="8" x2="550" y2="22" vector-effect="non-scaling-stroke"/><line x1="560" y1="15" x2="560" y2="22" vector-effect="non-scaling-stroke"/><line x1="570" y1="15" x2="570" y2="22" vector-effect="non-scaling-stroke"/><line x1="580" y1="15" x2="580" y2="22" vector-effect="non-scaling-stroke"/><line x1="590" y1="15" x2="590" y2="22" vector-effect="non-scaling-stroke"/><line x1="600" y1="0" x2="600" y2="22" vector-effect="non-scaling-stroke"/><line x1="610" y1="15" x2="610" y2="22" vector-effect="non-scaling-stroke"/><line x1="620" y1="15" x2="620" y2="22" vector-effect="non-scaling-stroke"/><line x1="630" y1="15" x2="630" y2="22" vector-effect="non-scaling-stroke"/><line x1="640" y1="15" x2="640" y2="22" vector-effect="non-scaling-stroke"/><line x1="650" y1="8" x2="650" y2="22" vector-effect="non-scaling-stroke"/><line x1="660" y1="15" x2="660" y2="22" vector-effect="non-scaling-stroke"/><line x1="670" y1="15" x2="670" y2="22" vector-effect="non-scaling-stroke"/><line x1="680" y1="15" x2="680" y2="22" vector-effect="non-scaling-stroke"/><line x1="690" y1="15" x2="690" y2="22" vector-effect="non-scaling-stroke"/><line x1="700" y1="0" x2="700" y2="22" vector-effect="non-scaling-stroke"/></svg></div>
+      <ul class="idx">
+        <li><a href="#laser">Laserová epilácia<small>30 partií</small></a></li>
+        <li><a href="#riasy">Riasy a obočie<small>9 položiek</small></a></li>
+        <li><a href="#licenie">Líčenie<small>10 položiek</small></a></li>
+        <li><a href="#plet">Pleť a depilácia<small>37 položiek</small></a></li>
+        <li><a href="#kontakt">Kontakt<small>Žilina</small></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="laser" id="laser" aria-labelledby="laser-h">
+    <span class="beamline" aria-hidden="true"></span>
+    <div class="wrap">
+      <div class="laser-h">
+        <div><p class="lab">Hlavná služba</p><h2 id="laser-h">Laserová epilácia</h2></div>
+        <p class="laser-meta"><b>9 – 160 €</b>30 partií · každá 30 min</p>
+      </div>
+      <ul class="zones"><li><span><span class="pre">Epilácia </span>obočia</span><span class="mono">12 €</span></li><li><span><span class="pre">Epilácia </span>líc</span><span class="mono">25 €</span></li><li><span><span class="pre">Epilácia </span>hornej pery</span><span class="mono">15 €</span></li><li><span><span class="pre">Epilácia </span>krku</span><span class="mono">25 €</span></li><li><span><span class="pre">Epilácia </span>šije</span><span class="mono">25 €</span></li><li><span><span class="pre">Epilácia </span>brady</span><span class="mono">20 €</span></li><li><span><span class="pre">Epilácia </span>bokombrady</span><span class="mono">18 €</span></li><li><span><span class="pre">Epilácia </span>tváre</span><span class="mono">55 €</span></li><li><span><span class="pre">Epilácia </span>okolia bradaviek</span><span class="mono">18 €</span></li><li><span><span class="pre">Epilácia </span>ušných lalôčikov</span><span class="mono">9 €</span></li><li><span><span class="pre">Epilácia </span>priehlavkov</span><span class="mono">10 €</span></li><li><span><span class="pre">Epilácia </span>prstov na nohách</span><span class="mono">9 €</span></li><li><span><span class="pre">Epilácia </span>linea alba</span><span class="mono">18 €</span></li><li><span><span class="pre">Epilácia </span>brucha</span><span class="mono">55 €</span></li><li><span><span class="pre">Epilácia </span>podpazušia</span><span class="mono">20 €</span></li><li><span><span class="pre">Epilácia </span>predlaktia</span><span class="mono">50 €</span></li><li><span><span class="pre">Epilácia </span>rúk</span><span class="mono">80 €</span></li><li><span><span class="pre">Epilácia </span>chrbta</span><span class="mono">100 €</span></li><li><span><span class="pre">Epilácia </span>zadku</span><span class="mono">50 €</span></li><li><span><span class="pre">Epilácia </span>krížovej oblasti</span><span class="mono">30 €</span></li><li><span><span class="pre">Epilácia </span>nôh</span><span class="mono">160 €</span></li><li><span><span class="pre">Epilácia </span>lýtok</span><span class="mono">80 €</span></li><li><span><span class="pre">Epilácia </span>stehien</span><span class="mono">85 €</span></li><li><span><span class="pre">Epilácia </span>brazilská</span><span class="mono">65 €</span></li><li><span><span class="pre">Epilácia </span>análneho otvoru</span><span class="mono">21 €</span></li><li><span><span class="pre">Epilácia </span>intim</span><span class="mono">30 €</span></li><li><span><span class="pre">Epilácia </span>Bikini total</span><span class="mono">90 €</span></li><li><span><span class="pre">Epilácia </span>Bikini normal</span><span class="mono">35 €</span></li><li><span><span class="pre">Epilácia </span>kolien</span><span class="mono">15 €</span></li><li><span><span class="pre">Epilácia </span>nosa</span><span class="mono">9 €</span></li></ul>
+      <p class="src">Na profile každá položka ako „Epilácia &lt;partia&gt;“, 30 min. Ceny podľa profilu na Notino (1. 10. 2026), overiť.</p>
+    </div>
+  </section>
+
+  <section class="svc" id="sluzby" aria-labelledby="sluzby-h">
+    <div class="wrap svc-grid">
+      <div class="svc-side">
+        <p class="lab">Cenník služieb</p>
+        <h2 id="sluzby-h">Riasy, vizáž, pleť</h2>
+        <p>Kompletný cenník z profilu na Notino, rozdelený podľa skupín. Kliknite na skupinu.</p>
+        <div class="pics">
+          <figure><img src="assets/kvartiuk-riasy-detail.webp" width="315" height="315" loading="lazy" alt="Detail natočených rias zblízka, dva zábery"><figcaption>riasy · detail</figcaption></figure>
+          <figure><img src="assets/kvartiuk-lash-lifting-detail.webp" width="315" height="288" loading="lazy" alt="Detail rias a hnedého oka zblízka"><figcaption>riasy · detail</figcaption></figure>
+        </div>
+      </div>
+      <div>
+        <details id="riasy" open><summary><h3>Riasy a obočie</h3><span class="mono">9 položiek · 5 – 195 €</span><i aria-hidden="true"></i></summary><ul class="list"><li><span>Lash Lifting</span><span class="t">1 h</span><span class="p">35 €</span></li><li><span>Laminácia obočia + lash lifting</span><span class="t">1 h 30 min</span><span class="p">60 €</span></li><li><span>Farbenie rias</span><span class="t">10 min</span><span class="p">5 €</span></li><li><span>Úprava a farbenie obočia</span><span class="t">50 min</span><span class="p">12 €</span></li><li><span>Farbenie obočia + farbenie rias</span><span class="t">25 min</span><span class="p">15 €</span></li><li><span>Úprava obočia s farbením + laminácia</span><span class="t">1 h 10 min</span><span class="p">35 €</span></li><li><span>Pánska úprava obočia</span><span class="t">25 min</span><span class="p">15 €</span></li><li><span>Kurz laminácie obočia</span><span class="t">4 h</span><span class="p">195 €</span></li><li><span>Kurz lash liftingu</span><span class="t">6 h</span><span class="p">195 €</span></li></ul></details>
+        <details id="licenie"><summary><h3>Líčenie a účesy</h3><span class="mono">10 položiek · 25 – 100 €</span><i aria-hidden="true"></i></summary><ul class="list"><li><span>Večerné líčenie</span><span class="t">1 h</span><span class="p">40 €</span></li><li><span>Denné líčenie</span><span class="t">30 min</span><span class="p">30 €</span></li><li><span>Líčenie na špeciálnu príležitosť</span><span class="t">1 h</span><span class="p">35 €</span></li><li><span>Expres líčenie</span><span class="t">30 min</span><span class="p">25 €</span></li><li><span>Kurz sebalíčenia</span><span class="t">4 h</span><span class="p">100 €</span></li><li><span>Jednoduchý spoločenský účes</span><span class="t">50 min</span><span class="p">45 €</span></li><li><span>Zložitý spoločenský účes</span><span class="t">1 h 10 min</span><span class="p">60 €</span></li><li><span>Svadobné líčenie</span><span class="t">1 h 20 min</span><span class="p">80 €</span></li><li><span>Skúška líčenia</span><span class="t">1 h</span><span class="p">45 €</span></li><li><span>Jednoduchý Účes + Vizáž (aj v skupine Premena)</span><span class="t">1 h 20 min</span><span class="p">80 €</span></li></ul></details>
+        <details id="plet"><summary><h3>Kozmetické ošetrenie</h3><span class="mono">7 položiek · 12 – 50 €</span><i aria-hidden="true"></i></summary><ul class="list"><li><span>Neinvazívna karboxyterapia</span><span class="t">50 min</span><span class="p">40 €</span></li><li><span>Ozónoterapia</span><span class="t">15 min</span><span class="p">15 €</span></li><li><span>Anti-akné ošetrenie</span><span class="t">1 h</span><span class="p">50 €</span></li><li><span>Fonoforéza</span><span class="t">15 min</span><span class="p">12 €</span></li><li><span>Ošetrenie vitamínom C</span><span class="t">50 min</span><span class="p">40 €</span></li><li><span>Anti-age ošetrenie</span><span class="t"></span><span class="tel">cena telefonicky</span></li><li><span>Ošetrenie proti pigmentovým škvrnám</span><span class="t">40 min</span><span class="tel">cena telefonicky</span></li></ul></details>
+        <details id="cistenie"><summary><h3>Čistenie pleti</h3><span class="mono">8 položiek · 25 – 55 €</span><i aria-hidden="true"></i></summary><ul class="list"><li><span>Čistenie pleti ultrazvukovou špachtľou</span><span class="t">1 h</span><span class="p">25 €</span></li><li><span>Chemický peeling</span><span class="t">1 h 30 min</span><span class="p">40 €</span></li><li><span>Karbónový peeling</span><span class="t">45 min</span><span class="p">55 €</span></li><li><span>Enzymatický peeling</span><span class="t">1 h</span><span class="p">40 €</span></li><li><span>Manuálne čistenie pleti</span><span class="t">1 h 15 min</span><span class="p">40 €</span></li><li><span>Karbónový peeling – tvár</span><span class="t">50 min</span><span class="p">55 €</span></li><li><span>Peeling tváre</span><span class="t"></span><span class="tel">cena telefonicky</span></li><li><span>Čistenie chrbta</span><span class="t"></span><span class="tel">cena telefonicky</span></li></ul></details>
+        <details id="depilacia"><summary><h3>Depilácia</h3><span class="mono">22 položiek · 5 – 45 €</span><i aria-hidden="true"></i></summary><ul class="list"><li><span>Depilácia hornej pery</span><span class="t">10 min</span><span class="p">5 €</span></li><li><span>Depilácia brady</span><span class="t">10 min</span><span class="p">8 €</span></li><li><span>Depilácia celej tváre</span><span class="t">25 min</span><span class="p">20 €</span></li><li><span>Depilácia podpazušia</span><span class="t">15 min</span><span class="p">10 €</span></li><li><span>Depilácia predlaktia</span><span class="t">20 min</span><span class="p">15 €</span></li><li><span>Depilácia chrbta</span><span class="t">50 min</span><span class="p">40 €</span></li><li><span>Depilácia stehien</span><span class="t">20 min</span><span class="p">25 €</span></li><li><span>Depilácia celých nôh</span><span class="t">40 min</span><span class="p">45 €</span></li><li><span>Depilácia brucha</span><span class="t">25 min</span><span class="p">20 €</span></li><li><span>Depilácia obočia</span><span class="t">10 min</span><span class="p">5 €</span></li><li><span>Depilácia hrudníka</span><span class="t">40 min</span><span class="p">25 €</span></li><li><span>Depilácia nosa</span><span class="t">5 min</span><span class="p">5 €</span></li><li><span>Depilácia uší</span><span class="t">5 min</span><span class="p">5 €</span></li><li><span>Depilácia bokombrady</span><span class="t">10 min</span><span class="p">5 €</span></li><li><span>Depilácia krku</span><span class="t">15 min</span><span class="p">10 €</span></li><li><span>Depilácia krížovej oblasti</span><span class="t">20 min</span><span class="p">20 €</span></li><li><span>Depilácia zadku</span><span class="t">30 min</span><span class="p">30 €</span></li><li><span>Depilácia ramien</span><span class="t">25 min</span><span class="p">15 €</span></li><li><span>Depilácia linea alba</span><span class="t">5 min</span><span class="p">5 €</span></li><li><span>Depilácia predkolenia</span><span class="t">30 min</span><span class="p">25 €</span></li><li><span>Depilácia brazilská</span><span class="t">1 h</span><span class="p">35 €</span></li><li><span>Depilácia brazílska – vzor</span><span class="t"></span><span class="tel">cena telefonicky</span></li></ul></details>
+        <details id="svetlo"><summary><h3>LED terapia, fototerapia a ďalšie</h3><span class="mono">6 položiek · 12 €</span><i aria-hidden="true"></i></summary><ul class="list"><li><span>LED Terapia</span><span class="t">15 min</span><span class="p">12 €</span></li><li><span>Fototerapia</span><span class="t">15 min</span><span class="p">12 €</span></li><li><span>Konzultácia</span><span class="t">15 min</span><span class="tel">cena telefonicky</span></li><li><span>EMSculpt brucho</span><span class="t">30 min</span><span class="tel">cena telefonicky</span></li><li><span>EMSculpt stehná</span><span class="t">30 min</span><span class="tel">cena telefonicky</span></li><li><span>EMSculpt zadok</span><span class="t">30 min</span><span class="tel">cena telefonicky</span></li></ul></details>
+        <div class="phone-only">
+          <h3>Len telefonicky — cena na profile nie je</h3>
+          <ul><li>Mezoterapia — DermaPen, Mezoterapia vlasová</li><li>Radiofrekvenčný lifting — tváre; tváre, krku a dekoltu; brucha; nôh</li><li>Ultrazvuková liposukcia (kavitácia) — zadok, stehná, brucho, boky</li><li>Laserová liposukcia — brucho, stehná, boky, zadok</li><li>Odstránenie tetovania</li><li>Darsonval</li></ul>
+        </div>
+        <p class="src">Ceny podľa profilu na Notino (1. 10. 2026), overiť. Položky bez ceny alebo s orientačnou cenou na profile sú označené „cena telefonicky“.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="kontakt" aria-labelledby="kontakt-h">
+    <div class="wrap">
+      <div class="c-head"><h2 id="kontakt-h">Kontakt</h2><span class="lab">Žilina</span></div>
+      <div class="c-grid">
+        <div>
+          <p class="lab">Adresa</p>
+          <p>J. M. Geromettu 146<br>010 01 Žilina</p>
+          <p><a href="https://www.google.com/maps/search/By.kvartiuk+%C5%BDilina" rel="noopener" target="_blank">Otvoriť v Google Mapách</a></p>
+        </div>
+        <div>
+          <p class="lab">Telefón a e-mail</p>
+          <p><a class="mono" href="tel:+421944360505">+421 944 360 505</a></p>
+          <p><a href="mailto:by.kvartiuk@gmail.com">by.kvartiuk@gmail.com</a></p>
+          <div class="links"><a href="https://www.instagram.com/by.kvartiuk/" rel="noopener" target="_blank">Instagram</a><a href="https://www.facebook.com/p/Bykvartiuk-61578875273586/" rel="noopener" target="_blank">Facebook</a></div>
+        </div>
+        <div>
+          <p class="lab">Termíny</p>
+          <p>Na objednanie — telefonicky alebo cez <a href="https://www.notino.sk/salony/by-kvartiuk/" rel="noopener" target="_blank">Notino</a>.</p>
+          <p class="muted">Otváracie hodiny: overiť. Hodnotenie na Notino 5,0 z 5 (2 hodnotenia, 1. 10. 2026).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap"><span>Neoficiálny návrh webu · webdavid.sk · 2026</span><span>Fotky: Facebook stránka By.kvartiuk</span></div></footer>
+
+<div class="mbar"><a href="tel:+421944360505">Zavolať</a><a href="https://www.notino.sk/salony/by-kvartiuk/" rel="noopener" target="_blank">Termín cez Notino</a></div>
+<script>function o(){var h=location.hash.slice(1),d=h&&document.getElementById(h);if(d&&d.tagName=="DETAILS")d.open=true}addEventListener("hashchange",o);o()</script>
